@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/185361-support-swiss01-splitpro/</Support>
   <Project>https://hub.docker.com/r/ossapps/splitpro/</Project>
   <Overview>Open source alternative to Splitwise&#xD;
 &#xD;
@@ -34,7 +34,7 @@ https://github.com/swiss01/unraid-templates/blob/main/splitpro/README.md</Overvi
   <Category>Other:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/oss-apps/split-pro/refs/heads/main/public/logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/swiss01/unraid-templates/refs/heads/main/splitpro/logo_circle.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
