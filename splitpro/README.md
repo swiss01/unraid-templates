@@ -1,5 +1,7 @@
 # SplitPro Login Options and Configuration
 
+## To start Docker, at least user authentication is required. The simplest option for this is likely the integration of a mail server.
+
 ## 1. Login via Email (Magic Link or Password)
 
 ### Description:
