@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>splitpro</Name>
+  <Repository>ossapps/splitpro:latest</Repository>
+  <Registry>https://hub.docker.com/r/ossapps/splitpro/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://hub.docker.com/r/ossapps/splitpro/</Project>
+  <Overview>Open source alternative to Splitwise&#xD;
+&#xD;
+About&#xD;
+SplitPro aims to provide an open-source way to share expenses with your friends.&#xD;
+&#xD;
+It's meant to be a complete replacement for Splitwise.&#xD;
+&#xD;
+It currently has most of the important features.&#xD;
+&#xD;
+ - Add expenses with an individual or groups&#xD;
+ - Overall balances across the groups&#xD;
+- Multiple currency support&#xD;
+- Upload expense bills&#xD;
+- PWA support&#xD;
+- Split expense unequally (share, percentage, exact amounts, adjustments)&#xD;
+- Push notification&#xD;
+- Download your data&#xD;
+- Import from splitwise&#xD;
+More features coming every day&#xD;
+&#xD;
+For Docker Configuration Read &#xD;
+https://github.com/swiss01/unraid-templates/blob/main/splitpro/README.md</Overview>
+  <Category>Other:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/oss-apps/split-pro/refs/heads/main/public/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1737312956</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>You need postgresql Docker </Requires>
+  <Config Name="Container Variable 1" Target="NODE_VERSION" Default="20.18.1" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">20.18.1</Config>
+  <Config Name="Container Variable 2" Target="YARN_VERSION" Default="1.22.22" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">1.22.22</Config>
+  <Config Name="Container Variable 3" Target="SKIP_ENV_VALIDATION" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="postgresql://USER:PASSWORD@HOST:PORT/DATABASE" Mode="" Description="# You could give a DB URL or give the username, password, host, port individually&#13;&#10;" Type="Variable" Display="always" Required="true" Mask="false">postgresql://USER:PASSWORD@HOST:PORT/DATABASE</Config>
+  <Config Name="NEXTAUTH_URL" Target="NEXTAUTH_URL" Default="http://localhost:3000" Mode="" Description="If provided, server-side calls will use this instead of NEXTAUTH_URL. Useful in environments when the server doesn't have access to the canonical URL of your site." Type="Variable" Display="always" Required="true" Mask="false">http://localhost:3000</Config>
+  <Config Name="NEXTAUTH_SECRET" Target="NEXTAUTH_SECRET" Default="" Mode="" Description="You can generate a new secret on the command line with" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="PORT" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="EMAIL_SERVER_HOST" Target="EMAIL_SERVER_HOST" Default="" Mode="" Description="SMTP-Server-Host" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="EMAIL_SERVER_PORT" Target="EMAIL_SERVER_PORT" Default="" Mode="" Description="587 (TLS) oder 465 (SSL)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="EMAIL_SERVER_USER" Target="EMAIL_SERVER_USER" Default="" Mode="" Description="your-email-adress" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="EMAIL_SERVER_PASSWORD" Target="EMAIL_SERVER_PASSWORD" Default="" Mode="" Description="your-email-password" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="EMAIL_FROM" Target="EMAIL_FROM" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="GOOGLE_CLIENT_ID" Target="GOOGLE_CLIENT_ID" Default="" Mode="" Description="Login with google" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="GOOGLE_CLIENT_SECRET" Target="GOOGLE_CLIENT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="GITHUB_CLIENT_ID" Target="GITHUB_CLIENT_ID" Default="" Mode="" Description="GitHub OAuth" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="GITHUB_CLIENT_SECRET" Target="GITHUB_CLIENT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="FACEBOOK_CLIENT_ID" Target="FACEBOOK_CLIENT_ID" Default="" Mode="" Description="Facebook OAuth" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="FACEBOOK_CLIENT_SECRET" Target="FACEBOOK_CLIENT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="AZURE_AD_CLIENT_ID" Target="AZURE_AD_CLIENT_ID" Default="" Mode="" Description="Azure AD OAuth" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="AZURE_AD_CLIENT_SECRET" Target="AZURE_AD_CLIENT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="AZURE_AD_TENANT_ID" Target="AZURE_AD_TENANT_ID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="TWITTER_CLIENT_ID" Target="TWITTER_CLIENT_ID" Default="" Mode="" Description="Twitter OAuth" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="TWITTER_CLIENT_SECRET" Target="TWITTER_CLIENT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"/>
+</Container>
