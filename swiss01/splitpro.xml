@@ -34,7 +34,7 @@ https://github.com/swiss01/unraid-templates/blob/main/splitpro/README.md</Overvi
   <Category>Other:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/swiss01/unraid-templates/refs/heads/main/images/logo_circle.png</Icon>
+  <Icon>https://raw.githubusercontent.com/swiss01/unraid-templates/refs/heads/main/swiss01/images/logo_circle.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
