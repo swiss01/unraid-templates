@@ -42,10 +42,6 @@ https://github.com/swiss01/unraid-templates/blob/main/splitpro/README.md</Overvi
   <DonateText/>
   <DonateLink/>
   <Requires>You need postgresql Docker </Requires>
-  <Config Name="Container Variable 1" Target="NODE_VERSION" Default="20.18.1" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">20.18.1</Config>
-  <Config Name="Container Variable 2" Target="YARN_VERSION" Default="1.22.22" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">1.22.22</Config>
-  <Config Name="Container Variable 3" Target="SKIP_ENV_VALIDATION" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="" Mode="" Description="# You could give a DB URL or give the username, password, host, port individually&#13;&#10;" Type="Variable" Display="always" Required="true" Mask="false">postgresql://USER:PASSWORD@HOST:PORT/DATABASE</Config>
   <Config Name="NEXTAUTH_URL" Target="NEXTAUTH_URL" Default="http://localhost:3000" Mode="" Description="If provided, server-side calls will use this instead of NEXTAUTH_URL. Useful in environments when the server doesn't have access to the canonical URL of your site." Type="Variable" Display="always" Required="true" Mask="false">http://localhost:3000</Config>
   <Config Name="NEXTAUTH_SECRET" Target="NEXTAUTH_SECRET" Default="" Mode="" Description="You can generate a new secret on the command line with" Type="Variable" Display="always" Required="true" Mask="true"/>
