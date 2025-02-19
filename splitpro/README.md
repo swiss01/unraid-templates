@@ -14,7 +14,7 @@ Users register with their email address. A Magic Link is sent, or they set a pas
 |  EMAIL_SERVER_PORT     | SMTP port                                             |  587  (TLS) or  465  (SSL)      |
 |  EMAIL_SERVER_USER     | Email account username                                |  youremail@example.com          |
 |  EMAIL_SERVER_PASSWORD | Email account password                                |  your-email-password            |
-|  EMAIL_FROM            | Sender address displayed in the email header          |  noreply@example.com            |
+|  FROM_EMAIL            | Sender address displayed in the email header          |  noreply@example.com            |
 
 ---
 
