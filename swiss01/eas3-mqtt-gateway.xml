@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/193341-support-swiss01-eas3-mqtt-gateway/</Support>
   <Project>https://github.com/sr258/eas3-mqtt</Project>
   <Overview>The EAS 3 MQTT Gateway is a NodeJS application that publishes the status (e.g., boiler room temperature or combustion status) of a Brunner EAS 3 electronic combustion controller to an MQTT broker. This allows this data to be used in a home automation system such as Home Assistant.</Overview>
   <Category>HomeAutomation:</Category>
@@ -31,4 +31,5 @@
   <Config Name="EAS3_MQTT_DEVICE_PREFIX" Target="EAS3_MQTT_DEVICE_PREFIX" Default="eas3_" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">eas3_</Config>
   <TailscaleStateDir/>
 </Container>
+
 
